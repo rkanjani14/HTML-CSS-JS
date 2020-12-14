@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.header_class{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/will-van-wingerden-cZVthlrnlnQ-unsplash.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main{
+
+}
+
+
+ul {
+    float:right;
+    list-style-type:none;
+    margin-top: 25px;
+}
+
+ul li {
+    display:inline-block;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding:5px 20px;
+    border:1px solid transparent; 
+    transition:0.9s ease;
+}
+.home_list a{
+    background-color: yellow;
+    color:blue;
+}
+
+ul li a:hover {
+    background-color: yellow;
+    color:blue;
+}
+
+.logo img {
+    float: left;
+    width:30px;
+    height:auto;
+    margin-top: 25px;
+    padding-left: 10px;
+}
+
+.assmvr {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.assmvr h1{
+    font-size: 60px;
+}
+
+.button{
+    
+    position: absolute;
+    top:60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.btn {
+    text-decoration: none;
+    border: 1px solid white;
+    padding:5px 20px;
+    color:white;
+}
+
+.btn:hover{
+    color:blue;
+    background-color: yellow;
+}
